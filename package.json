@@ -1,0 +1,43 @@
+{
+  "name": "wapairing",
+  "version": "1.0.0",
+  "description": "Whatsapp Store WITH PAIRINGCODE",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js",
+    "dev": "pm2 start index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndhet/wastore-pairing.git"
+  },
+  "keywords": [
+    "whatsappbot",
+    "whatsappbaileys",
+    "pairingcode",
+    "ndhet",
+    "wastore-pairing",
+    "wastore-pairing"
+  ],
+  "author": "ndhet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndhet/wastore-pairing/issues"
+  },
+  "homepage": "https://github.com/ndhet/wastore-pairing#readme",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "axios": "^1.6.8",
+    "extra": "^0.2.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10",
+    "md5": "^2.3.0",
+    "path": "^0.12.7",
+    "pino": "^8.17.2",
+    "readline": "^1.3.0",
+    "ss2": "^0.0.1-security",
+    "ssh2": "^1.15.0"
+  }
+}
